@@ -1,0 +1,15 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.100.102:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 524-326-554
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2026 17:07:26] "[32mGET / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2026 17:07:26] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2026 17:07:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:__main__:Login attempt: username=admin, password=admin123
+DEBUG:__main__:Executing query: SELECT * FROM users WHERE username = 'admin' AND password = '0192023a7bbd73250516f069df18b500'
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2026 17:07:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2026 17:07:47] "GET /todos HTTP/1.1" 200 -

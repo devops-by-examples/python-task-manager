@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Task Manager",
+			"type": "shell",
+			"command": "cd /Users/abhi/Downloads/python-todo-app && source venv/bin/activate && python app.py",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
