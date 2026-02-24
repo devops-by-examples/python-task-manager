@@ -1,0 +1,10 @@
+services:
+  my-app:
+    build:
+      context: .
+    volumes:
+      - my-app-db:/app/db
+    ports:
+      - "5002:5002"
+volumes:
+  my-app-db:
